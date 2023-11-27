@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadySetGo", "ReadySetGo\ReadySetGo.csproj", "{66AAF8F4-E296-42FF-97F2-E960CF41C635}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66AAF8F4-E296-42FF-97F2-E960CF41C635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66AAF8F4-E296-42FF-97F2-E960CF41C635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66AAF8F4-E296-42FF-97F2-E960CF41C635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66AAF8F4-E296-42FF-97F2-E960CF41C635}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA3FD597-5E4A-4E5B-8E47-2FFFC0A96A5C}
+	EndGlobalSection
+EndGlobal
