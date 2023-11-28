@@ -3,13 +3,13 @@ namespace ReadySetGo.Models
 {
 	public class Flashcard
 	{
-        private int FlashcardId;
-        private string Front;
-        private string Back;
+        public int FlashcardId;
+        public string Front;
+        public string Back;
 
         public Flashcard(int FlashcardId, string Front, string Back)
         {
-            this.FlashcardId = v1;
+            this.FlashcardId = FlashcardId;
             this.Front = Front;
             this.Back = Back;
         }

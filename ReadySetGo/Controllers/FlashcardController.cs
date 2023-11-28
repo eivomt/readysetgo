@@ -12,7 +12,7 @@ namespace ReadySetGo.Controllers
     public class FlashcardController : Controller
     {
         // GET: /<controller>/
-        public IActionResult Index()
+        public IActionResult Table()
         {
             var flashcards = new List<Flashcard>();
 
