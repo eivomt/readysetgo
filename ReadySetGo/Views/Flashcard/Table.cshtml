@@ -1,0 +1,29 @@
+﻿@model IEnumerable<ReadySetGo.Models.Flashcard>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" />
+    <title>Flashcard</title>
+</head>
+<body>
+    <div class="container">
+        <h1>@ViewBag.CurrentViewName</h1>
+        <table class="table table-striped">
+            <tr>
+                <th>Front</th>
+                <th>Back</th>
+            </tr>
+            @foreach (var flashcard in Model)
+            {
+                <tr>
+                    <td>@flashcard.Front</td>
+                    <td>@flashcard.Back</td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>
