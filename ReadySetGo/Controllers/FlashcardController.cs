@@ -16,17 +16,9 @@ namespace ReadySetGo.Controllers
         {
             var flashcards = new List<Flashcard>();
 
-            var flashcard1 = new Flashcard
-            {
-                Front = "Sannhet",
-                Back = "Truth"
-            };
+            var flashcard1 = new Flashcard(1, "Sannhet", "Truth");
 
-            var flashcard2 = new Flashcard
-            {
-                Front = "Mot",
-                Back = "Courage"
-            };
+            var flashcard2 = new Flashcard(2, "Mot", "Courage");
 
             flashcards.Add(flashcard1);
             flashcards.Add(flashcard2);
